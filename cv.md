@@ -1,6 +1,6 @@
 1. First and last name\
 Reshetniak Maksim\
-![Photo with me](/photo.jpg)
+<img src="photo.jpg" alt="Photo whith me" height="200">
 2. Contacts for communication\
 Discord - <https://discordapp.com/users/319151035245395979/>
 3. Brief information about myrself\
