@@ -13,31 +13,25 @@
 }
 
 .nav-item {
-    padding: 17px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px ;
     cursor: pointer;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.nav-item:hover{
+    background-color: rgb(194, 191, 191) ;
+    text-decoration:underline ;
 }
 
 .nav-link {
     color: black;
 }
 
-.nav-item:hover {
-    background-color: cornflowerblue;
-    transition: .3s;
-}
+
 
 nav a {
     text-decoration: none;
-}
-
-.nav-item:after {
-    content: '';
-    background-color: black;
-    height: 1px;
-    display: none;
-}
-
-.nav-item:hover:after {
-    display: block;
-    transition: .3s;
 }
