@@ -1,0 +1,13 @@
+.footer {
+    height: 50px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-rs-school {
+    cursor: pointer;
+    height: 30px;
+    widows: 40px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#strengths" class="nav-link">Strengths</a></li>
+                <li class="nav-item"><a href="#codeExample" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <div class="left-side">
+            <figure class="section">
+                <img src="img/photo.jpg" alt="photo whith me" class="photo-me">
+            </figure>
+            <section class="section padding-left-20">
+                <div class="contact">
+                    <h2 id="contact">Contact</h2>
+                    <div>
+                        <h4>Discord:</h4>
+                        <span>Maksim mnvnm_2332</span>
+                    </div>
+                    <div>
+                        <h4>Email:</h4>
+                        <span>maksimresetniak@gmail.com</span>
+                    </div>
+                </div>
+                <div class="education">
+                    <h2 id="education">Education</h2>
+                    <span>I am currently taking a course in programming from RS School</span>
+                </div>
+            </section>
+
+        </div>
+        <div class="right-side padding-left-20">
+            <h1>Reshetniak<br>
+                Maksim
+            </h1>
+            <section>
+                <div class="">
+                    <h2 id="aboutMe">About me</h2>
+                    <span class="text">Six months ago, I began to study front-end technologies. Perseverance and desire
+                        help me deal
+                        with new knowledge in this area.</span>
+                </div>
+                <div class="">
+                    <h2 id="skills">Skills</h2>
+                    <ul>
+                        <li>html</li>
+                        <li>CSS tried it in practice: scss(basic functionality of preprocessors), positioning(flexbox),
+                            three column layout, adaptive design.</li>
+                        <li>JS (basic knowledge).</li>
+                        <li>Git basic commands.</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h2 id="strengths">Strengths</h2>
+                    <ul class="strengths padding-left-20">
+                        <li>Hardworking</li>
+                        <li>Responsible</li>
+                        <li>Sociable</li>
+                        <li>Quick learner</li>
+                        <li>Goal-oriented</li>
+                        <li>Conscientious</li>
+                    </ul>
+                </div>
+                <div class="" >
+                    <h2 id="codeExample">Code example</h2>
+                    <pre>
+    function spinWords(string) {
+        const words = string.split(" ");
+        const resultWords = words.map((word) => {
+            if (word.length >= 5) {
+            return word.split("").reverse().join("");
+        }
+        return word;
+        });
+        return resultWords.join(" ");
+    }
+                    </pre>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+    <footer class="container footer">
+        <div>
+            <span><a href="https://github.com/MaksimR02/rsschool-cv" class="link">My github</a></span>
+        </div>
+        <div>2023</div>
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" class="img-rs-school" alt="link to course"></a>
+    </footer>
+
+
+</body>
+
+</html>
