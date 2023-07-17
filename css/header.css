@@ -1,0 +1,36 @@
+.header {
+    height: 50px;
+    background-color: darkgrey;
+}
+
+.nav-list {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.nav-item:hover {
+    background-color: rgb(194, 191, 191);
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+}
