@@ -1,0 +1,19 @@
+@import url(header.css);
+@import url(variables.css);
+
+
+
+
+.body {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
