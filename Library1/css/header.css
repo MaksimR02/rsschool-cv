@@ -43,10 +43,11 @@
     color: var(--white);
     text-decoration-line: none;
 }
-.page-title{    
+.page-title{   
+    font-size: 30px;
+    font-family: Forum; 
     font-style: normal;
     cursor: pointer;
-}
-.nav-item:hover{
-    
+    letter-spacing: 0.6px;
+    font-weight: 400;
 }

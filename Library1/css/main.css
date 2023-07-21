@@ -1,0 +1,78 @@
+.container-welcom {
+    height: 600px;
+    width: 1400px;
+    background: url(https://cdn.discordapp.com/attachments/1127538409280376868/1128388870581526669/image.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.title-welcom {
+    background-color: black;
+    width: 520px;
+    padding: 35px 40px;
+    color: var(--white);
+}
+
+.text-welcom {
+    font-family: Forum;
+    text-align: center;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.container-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-about {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.title-typography {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.typography-text {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.container-cariusel {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+.carousel {
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    border-radius: 50%;
+}
