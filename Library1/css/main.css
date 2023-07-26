@@ -41,7 +41,8 @@
     display: flex;
     justify-content: center;
 }
-.container-img-carousel .m-img-about:not(:last-child){
+
+.container-img-carousel .m-img-about:not(:last-child) {
     margin-right: 25px;
 }
 
@@ -51,9 +52,9 @@
     margin: 20px 0 40px 0;
 }
 
-.container-img-carousel{
+.container-img-carousel {
     display: flex;
-    padding: 0 20px ;
+    padding: 0 20px;
 }
 
 .carousel {
@@ -62,30 +63,34 @@
     background-color: black;
     border-radius: 50%;
 }
-.container-favorites{
+
+.container-favorites {
     width: 1440px;
 }
-.container-radio-button{
+
+.container-radio-button {
     display: flex;
     width: 700px;
     margin: 40px 0;
 }
 
-.radio-button{
+.radio-button {
     margin: 0 20px 0 0;
 }
 
-.container-radio-button div:not(:last-child){
+.container-radio-button div:not(:last-child) {
     margin-right: 90px;
 }
-.season-book{
-   width: 550px;
-   height: 555px;
-   border: 1px solid #000;
-   position: relative;
-   margin-bottom: 40px;
+
+.season-book {
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    position: relative;
+    margin-bottom: 40px;
 }
-.book-cover{
+
+.book-cover {
     position: absolute;
     width: 200px;
     height: 300px;
@@ -93,21 +98,54 @@
     right: -40px;
     bottom: -1px;
 }
-.description-book{
+
+.description-book {
     width: 355px;
 }
-.button-buy-book{
+
+.button-buy-book {
     border: 1px solid #0C0C0E;
     margin: 15px 20px;
 }
-.text-button{
+
+.text-button {
     padding: 9px 27px;
 }
-.books{
+
+.books {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.container-coffee-shop{
+
+.container-coffee-shop {
     padding: 20px 20px 40px 20px;
+    
+}
+
+.container-menu-shop {
+    width: 438px;
+    height: 520px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.part-menu {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.line-menu {
+    border: 1px solid #000;
+    width: 100px;
+}
+.table-menu-shop{
+    display: flex;
+    justify-content: space-between;
 }
