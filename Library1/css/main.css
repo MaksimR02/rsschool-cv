@@ -120,7 +120,7 @@
 
 .container-coffee-shop {
     padding: 20px 20px 40px 20px;
-    
+
 }
 
 .container-menu-shop {
@@ -145,7 +145,27 @@
     border: 1px solid #000;
     width: 100px;
 }
-.table-menu-shop{
+
+.table-menu-shop {
     display: flex;
     justify-content: space-between;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.store-on-the-map {
+    width: 696px;
+    height: 414px;
+}
+.contacts-staff{
+    margin-bottom: 34px;
 }

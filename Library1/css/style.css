@@ -136,6 +136,31 @@ button {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.margin-40{
+
+.margin-40 {
     margin-bottom: 40px;
+}
+
+.typography-contacys-info {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.typography-staff {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
 }
