@@ -5,6 +5,7 @@
 
 
 
+
 .body {
     width: 1440px;
     margin: 0 auto;
@@ -163,4 +164,30 @@ button {
     /* 200% */
     letter-spacing: 2px;
     text-transform: capitalize;
+}
+
+.typography-input-form {
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.title-typography-library-card {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 166.667% */
+    letter-spacing: 0.6px;
+    
+}
+.title-form-library-card{
+    padding: 20px;
 }

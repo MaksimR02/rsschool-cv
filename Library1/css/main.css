@@ -150,7 +150,8 @@
     display: flex;
     justify-content: space-between;
 }
-.contact-info{
+
+.contact-info {
     display: flex;
     justify-content: space-between;
 }
@@ -166,6 +167,60 @@
     width: 696px;
     height: 414px;
 }
-.contacts-staff{
+
+.contacts-staff {
     margin-bottom: 34px;
+}
+
+.container-form {
+    width: 560px;
+    height: 272px;
+    background: #BB945F;
+    margin: 20px;
+}
+
+.form {
+    border: none;
+    border-radius: 10px;
+    height: 66px;
+    width: 520px;
+}
+
+.border-Library-card {
+    width: 600px;
+    height: 386px;
+    border: 1px solid #BB945F;
+}
+
+.position-input-library-card {
+    padding: 0px;
+    margin: 0px 20px 25px 20px;
+
+}
+
+.border-Library-card form .position-input-library-card:not(:first-child) {
+    margin-bottom: 25px;
+    margin-top: 0px;
+
+}
+
+.countainer-button-card {
+    text-align: center;
+}
+
+.button-card {
+    padding: 10px 40px;
+    border-radius: 0px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-about-get-card {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
