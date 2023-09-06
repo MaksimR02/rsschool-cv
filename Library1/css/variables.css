@@ -1,3 +1,5 @@
 :root{
-    --white: #ffffff
+    --white: #ffffff;
+    --underline-width: 50px;
+    --underline-staff-picks-width: 60px;
 }
