@@ -1,0 +1,266 @@
+.container-welcom {
+    height: 600px;
+    width: 1440px;
+    background: url(https://cdn.discordapp.com/attachments/1127538409280376868/1128388870581526669/image.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.title-welcom {
+    background-color: black;
+    width: 520px;
+    padding: 35px 40px;
+    color: var(--white);
+}
+
+.text-welcom {
+    font-family: Forum;
+    text-align: center;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.container-about {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-title-section {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.container-img-carousel .m-img-about:not(:last-child) {
+    margin-right: 25px;
+}
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+.container-img-carousel {
+    display: flex;
+    padding: 0 20px;
+}
+
+.carousel {
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.container-favorites {
+    width: 1440px;
+}
+
+.container-radio-button {
+    display: flex;
+    width: 700px;
+    margin: 40px 0;
+}
+
+.radio-button {
+    margin: 0 20px 0 0;
+}
+
+.container-radio-button div:not(:last-child) {
+    margin-right: 90px;
+}
+
+.season-book {
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.book-cover {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    right: -40px;
+    bottom: -1px;
+}
+
+.description-book {
+    width: 355px;
+}
+
+.button-buy-book {
+    border: 1px solid #0C0C0E;
+    margin: 15px 20px;
+}
+
+.text-button {
+    padding: 9px 27px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-coffee-shop {
+    padding: 20px 20px 40px 20px;
+}
+
+.container-menu-shop {
+    height: 520px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    box-sizing: content-box;
+}
+
+.part-menu {
+    display: grid;
+    grid-template-columns: 200px 100px 50px;
+    grid-template-rows: 100%;
+    gap: 60px;
+}
+
+.line-menu {
+    margin: auto 0 auto 0;
+    border: 1px solid #BB945F;
+    ;
+    width: 100px;
+}
+
+.text-alignment-right {
+    text-align: right;
+}
+
+.table-menu-shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.store-on-the-map {
+    width: 696px;
+    height: 414px;
+}
+
+.contacts-staff {
+    margin-bottom: 34px;
+}
+
+.container-form {
+    width: 560px;
+    height: 272px;
+    background: #BB945F;
+    margin: 20px;
+}
+
+.form {
+    border: none;
+    border-radius: 10px;
+    height: 66px;
+    width: 520px;
+}
+
+.border-Library-card {
+    width: 600px;
+    height: 386px;
+    border: 1px solid #BB945F;
+    margin-left: 20px;
+    margin-bottom: 41px;
+}
+
+.position-input-library-card {
+    padding: 0px;
+    margin: 0px 20px 25px 20px;
+
+}
+
+.border-Library-card form .position-input-library-card:not(:first-child) {
+    margin-bottom: 25px;
+    margin-top: 0px;
+
+}
+
+.container-button-card {
+    text-align: center;
+}
+
+.button-card {
+    padding: 10px 40px;
+    border-radius: 0px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-about-get-card {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.underline::after {
+    content: ' ';
+    position: absolute;
+    right: calc(50% - var(--underline-width)*0.5);
+    top: calc(50% + 30px);
+    border-bottom: 1px solid #0C0C0E;
+    width: var(--underline-width);
+}
+
+.underline {
+    position: relative;
+}
+.staff-picks-underline::after {
+    content: ' ';
+    position: absolute;
+    right: calc(100% - var(--underline-staff-picks-width));
+    top: calc(50% + 20px);
+    border-bottom: 1px solid #BB945F;
+    width: var(--underline-staff-picks-width);
+  }
+  
+  .staff-picks-underline {
+    position: relative;
+  }
+
+  .text-rigth{
+    text-align: right;
+  }

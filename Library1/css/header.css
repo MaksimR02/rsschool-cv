@@ -1,0 +1,54 @@
+.header {
+    height: 90px;
+    background-color: #0c0c0e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white-text {
+    color: var(--white);
+}
+
+.nav-list {
+    display: flex;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.container-nav-login {
+    display: flex;
+    align-items: center;
+}
+
+.login-icon {
+    height: 28px;
+    width: 28px;
+}
+
+.nav-list .nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.login {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: var(--white);
+    text-decoration-line: none;
+}
+.page-title{   
+    font-size: 30px;
+    font-family: Forum; 
+    font-style: normal;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    margin-left: 20px;
+}
