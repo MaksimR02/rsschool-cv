@@ -248,6 +248,7 @@
 .underline {
     position: relative;
 }
+
 .staff-picks-underline::after {
     content: ' ';
     position: absolute;
@@ -255,12 +256,12 @@
     top: calc(50% + 20px);
     border-bottom: 1px solid #BB945F;
     width: var(--underline-staff-picks-width);
-  }
-  
-  .staff-picks-underline {
-    position: relative;
-  }
+}
 
-  .text-rigth{
+.staff-picks-underline {
+    position: relative;
+}
+
+.text-rigth {
     text-align: right;
-  }
+}
