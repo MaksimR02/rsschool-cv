@@ -37,6 +37,7 @@
 .login {
     margin-left: 40px;
     margin-right: 20px;
+    z-index: 1;
 }
 
 .nav-link {
@@ -51,4 +52,31 @@
     letter-spacing: 0.6px;
     font-weight: 400;
     margin-left: 20px;
+}
+.header-burger{
+    width: 45px;
+    height: 20px;
+    position: relative;
+    display: none;
+}
+.buger-line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+
+}
+.buger-line-first{
+    top: 0;
+}
+
+.buger-line-first{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.buger-line-third{
+    bottom: 0;
 }
