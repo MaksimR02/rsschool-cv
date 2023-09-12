@@ -54,8 +54,8 @@
     margin-left: 20px;
 }
 .header-burger{
-    width: 45px;
-    height: 20px;
+    width: var(--burger-line-width);
+    height: var(--burger-line-height);
     position: relative;
     display: none;
 }
