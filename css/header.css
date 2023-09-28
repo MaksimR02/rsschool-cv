@@ -1,0 +1,35 @@
+.container-header {
+    height: 80px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countainer-birds {
+    display: flex;
+}
+
+.logo {
+    display: block;
+    height: 50px;
+    width: 50px;
+    color: var(--white);
+    background-image: url(https://eco-sounds.netlify.app/assets/svg/logo.svg);
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-item {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color:var(--hover) ;
+}
