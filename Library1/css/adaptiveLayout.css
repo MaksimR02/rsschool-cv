@@ -1,5 +1,8 @@
 @import url(header.css);
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
+    .body{
+        max-width: 1024px;
+    }
     .container-nav-login{
         position: relative;
         height: 100%;
@@ -65,5 +68,95 @@
 
     .header-nav-close-line:last-child{
         transform: translateY(-50%) rotate(-45deg);
+    }
+
+    .container-welcom{
+        background: url('../img/background-welcome-tablet.png');
+    }
+
+    .container-img-carousel:not(:first-child){
+        display: none;
+    }
+
+    .container-slider{
+        display: flex;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .fullArea{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .points-area-size{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 5%;
+    }
+
+    .point{
+        display: flex;
+        width: 16px;
+        height: 16px;
+        background: black;
+        cursor: pointer;
+        border-radius: 100%;
+    }
+
+    .imges-area{
+        width: 450px;
+        height: 560px;
+        
+        overflow: hidden;
+    }
+
+    .imageSlider{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        animation-name: Animation;
+        animation-duration: 1s;
+    }
+
+    .active-img{
+        background-color: var(--beigeColor);
+        display: flex;
+    }
+
+    .btn-area-size{
+        position: absolute;
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+    }
+
+    .block-arrow{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    i{
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+    .arrow-right{
+        transform: rotate(-45deg);
+    }
+    .arrow-left{
+        transform: rotate(135deg);
     }
 }

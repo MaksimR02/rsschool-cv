@@ -1,6 +1,6 @@
 .container-welcom {
     height: 600px;
-    width: 1440px;
+    max-width: 1440px;
     background: url(https://cdn.discordapp.com/attachments/1127538409280376868/1128388870581526669/image.png), lightgray 50% / cover no-repeat;
     display: flex;
     align-items: center;
@@ -26,7 +26,6 @@
 }
 
 .container-about {
-    width: 1440px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -71,7 +70,7 @@
 }
 
 .container-favorites {
-    width: 1440px;
+    width: 100%;
 }
 
 .container-radio-button {
@@ -126,7 +125,7 @@
 }
 
 .container-coffee-shop {
-    padding: 20px 20px 40px 20px;
+    
 }
 
 .container-menu-shop {
