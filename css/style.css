@@ -1,7 +1,13 @@
 @import url(header.css);
 @import url(variables.css);
-
+@import url(main.css);
+@import url(footer.css);
 
 *{
     box-sizing: border-box;
+}
+
+button{
+    border: 0;
+    padding: 0;
 }

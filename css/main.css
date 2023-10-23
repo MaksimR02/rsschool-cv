@@ -1,0 +1,17 @@
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/forest.jpg);
+    height: calc(100vh - 120px);
+}
+.play{
+    background-image: url(..//img/play.svg);
+    width: 64px;
+    height: 64px;
+}
+.pause{
+    background-image: url(../img/pause.svg);
+    width: 64px;
+    height: 64px;
+}
