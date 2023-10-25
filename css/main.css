@@ -7,6 +7,7 @@
 }
 .play{
     background-image: url(..//img/play.svg);
+    background-color: transparent;
     width: 64px;
     height: 64px;
 }
@@ -14,4 +15,19 @@
     background-image: url(../img/pause.svg);
     width: 64px;
     height: 64px;
+}
+.solovei{
+    background-image: url(../img/solovey.jpg);
+}
+.drozd{
+    background-image: url(../img/drozd.jpg);
+}
+.zarynka{
+    background-image: url(../img/zarynka.jpg);
+}
+.javaronok{
+    background-image: url(../img/javoronok.jpg);
+}
+.slavka{
+    background-image: url(../img/slavka.jpg);
 }
