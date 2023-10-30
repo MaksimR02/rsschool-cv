@@ -12,37 +12,50 @@ function clickHandler() {
     audio.pause();
   }
 }
-function toggeleBtn() {
+function toggleBtn() {
   button.classList.toggle("pause");
 }
 
 containerHeader.addEventListener("click", (event) => {
   const currentBird = event.target.dataset.item;
+  const allClassesBirds = [
+    "solovei",
+    "drozd",
+    "zarynka",
+    "javaronok",
+    "slavka",
+    "forest",
+  ];
+  button.classList.remove("pause");
+  containerMain.classList.remove(...allClassesBirds);
+
   switch (currentBird) {
     case "solovei":
-      containerMain.classList.toggle("solovei");
+      containerMain.classList.add("solovei");
       audio.src = "./audio/solovey.mp3";
       break;
     case "drozd":
-      containerMain.classList.toggle("drozd");
+      containerMain.classList.add("drozd");
       audio.src = "./audio/drozd.mp3";
       break;
     case "zarynka":
-      containerMain.classList.toggle("zarynka");
+      containerMain.classList.add("zarynka");
       audio.src = "./audio/zarynka.mp3";
       break;
     case "javaronok":
-      containerMain.classList.toggle("javaronok");
+      containerMain.classList.add("javaronok");
       audio.src = "./audio/javoronok.mp3";
       break;
     case "slavka":
-      containerMain.classList.toggle("slavka");
+      containerMain.classList.add("slavka");
       audio.src = "./audio/slavka.mp3";
       break;
-
-    default:
+    case "forest":
+      containerMain.classList.toggle("forest");
+      audio.src = "./audio/forest.mp3";
       break;
   }
 });
-button.addEventListener("click", toggeleBtn);
+
+button.addEventListener("click", toggleBtn);
 playBtn.addEventListener("click", clickHandler);

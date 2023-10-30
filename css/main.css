@@ -16,6 +16,9 @@
     width: 64px;
     height: 64px;
 }
+.forest{
+    background-image: url(../img/forest.jpg);
+}
 .solovei{
     background-image: url(../img/solovey.jpg);
 }
