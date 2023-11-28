@@ -1,0 +1,14 @@
+.container-header{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: indianred;
+}
+
+.container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
