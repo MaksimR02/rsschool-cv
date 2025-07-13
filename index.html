@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#strengths" class="nav-link">Strengths</a></li>
+                <li class="nav-item"><a href="#codeExample" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <div class="left-side">
+            <figure class="section">
+                <img src="photo.jpg" alt="photo whith me" class="photo-me">
+            </figure>
+            <section class="section padding-left-20">
+                <div class="contact">
+                    <h2 id="contact">Contact</h2>
+                    <div>
+                        <h4>Discord:</h4>
+                        <span>Maksim mnvnm_2332</span>
+                    </div>
+                    <div>
+                        <h4>Email:</h4>
+                        <span>maksimresetniak@gmail.com</span>
+                    </div>
+                </div>
+                <div class="education-container">
+                    <h2 id="education">Education</h2>
+                    <span>I am currently taking a course in programming from RS School</span>
+                </div>
+            </section>
+
+        </div>
+        <div class="right-side padding-left-20">
+            <h1>Reshetniak<br>
+                Maksim
+            </h1>
+            <section>
+                <div class="">
+                    <h2 id="aboutMe">About me</h2>
+                    <span class="text">Motivated and detail-oriented developer with a foundation in HTML, CSS,
+                        JavaScript, and React. Eager to leverage my skills and develop further while contributing to a
+                        collaborative team.</span>
+                </div>
+                <div class="">
+                    <h2 id="skills">Skills</h2>
+                    <ul>
+                        <li>html</li>
+                        <li>CSS tried it in practice: scss(basic functionality of preprocessors), positioning(flexbox),
+                            three column layout, adaptive design.</li>
+                        <li>JS (basic knowledge).</li>
+                        <li>Git basic commands.</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h2 id="strengths">Strengths</h2>
+                    <ul class="strengths padding-left-20">
+                        <li>Hardworking</li>
+                        <li>Responsible</li>
+                        <li>Sociable</li>
+                        <li>Quick learner</li>
+                        <li>Goal-oriented</li>
+                        <li>Conscientious</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h2 id="codeExample">Code example</h2>
+                    <pre>
+                        function spinWords(string) {
+                            const words = string.split(&quot; &quot;);
+                            const resultWords = words.map((word) =&gt; {
+                            if&nbsp;(word.length &gt;= 5) {
+                            return word.split(&quot;&quot;).reverse().join(&quot;&quot;);
+                            }
+                            return word;
+                            });
+                            return resultWords.join(&quot; &quot;);
+                            }
+                    </pre>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+    <footer class="container footer">
+        <div>
+            <span><a href="https://github.com/MaksimR02/rsschool-cv" class="link">My github</a></span>
+        </div>
+        <div>2023</div>
+        <a href="https://rs.school/js/"><img src="rs_school_js.svg" class="img-rs-school" alt="link to course"></a>
+    </footer>
+
+
+</body>
+
+</html>
